@@ -1,0 +1,48 @@
+h1 {
+	font-size: 70px;
+
+}
+
+main {
+	background: #11afc0;
+	margin: 0 auto;
+	max-width: 1080px;
+}
+
+header {
+	/*background: #11afc0;*/
+	margin: 0 auto;
+	max-width: 1440px;
+	border: 10px solid #ffffc0;
+}
+
+body {
+	background: #11afc0;
+}
+
+p {
+	font-family: Kurale, Arial, sans-serif;
+	font-size: 22px;
+}
+
+.note {
+	border: 4px solid #fff000;
+	padding: 5px 5px 5px 5px;
+}
+
+#logo {
+	background: rgb(0, 0, 0);
+	font-size: 50px;
+	margin: 0 auto;
+	max-width: 1080px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 20px 20px 20px 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	font-family: Kurale, Arial, sans-serif;
+}
+
+h1, h2, h3 { 
+	color: rgb(0, 0, 0);
+	padding: 5px 5px 5px 30px;
+}
