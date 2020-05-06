@@ -1,10 +1,35 @@
-td, table {
-	border: 3px solid #000000;
-	border-collapse: collapse;
-	padding: 5px 20px 5px 20px;
+body {
+	background-color: #1c2a2e;
+	font-family: Arial, serif; 
 }
 
-body {
-	margin: 0 auto;
-	max-width: 1080px;
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, min-content);
+	max-width: 1170px;
+	margin: 50px auto;
+	border: 5px solid #1de9b6;
+	font-size: 24px;
+	color: #23756a;
+	text-align: center;
+}
+
+.item {
+	border: 1px solid #223236;
+	padding: 10px 0;
+}
+
+.button {
+	border: 3px solid #1de9b6;
+	color: #a23236;
+	padding: 0 10px;
+	font-size: 22px;
 }
