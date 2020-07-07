@@ -1,3 +1,2 @@
-MySite.
-It is my First site.
-Site is about hats(no).
+O hi.
+Look at my code...
